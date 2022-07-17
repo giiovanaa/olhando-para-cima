@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    user-select: none;
+    font-family: arial;
+}
+
+/*SCROLLBAR*/
+.scroll_bar {
+    background-color: transparent;
+    overflow-y: scroll;
+}
+
+.scroll_bar::-webkit-scrollbar {
+    display: none;
+}
+
+/*TITLES*/
+#title {
+    font-size: 3em;
+}
+
+.opacity-title {
+    color: rgba(174, 144, 56, 0.51);
+}
+
+#first__title{
+    font-size: 2em;
+    padding-bottom: 5%;
+}
+
+/*~NAVBAR*/
+nav {
+    background-color: #000;
+    width: 98%;
+    margin-top: 0;
+    padding: 20px;
+    position: fixed;
+    display: inline;
+    z-index: 1;
+}
+
+/*~DROPDOWN BUTTON*/
+.dropbtn a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.dropbtn {
+    background-color: #000;
+    color: #fff;
+    font-size: 1em;
+    position: relative;
+    display: inline-block;
+    padding: 0.5em;
+    margin-left: 2%;
+    cursor: pointer;
+}
+
+.dropbtn:hover .dropbtn-content {
+    display: block;
+}
+
+.dropbtn:hover .dropbtn {
+    background-color: #000;
+}
+
+.dropbtn-content {
+    display: none;
+    position: absolute;
+    background: #f9f9f9;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    width: 205%;
+}
+
+.dropbtn-content a {
+    color: black;
+    padding: 5%;
+    text-decoration: none;
+    display: block;
+}
+
+.dropbtn-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/*~IMG ROCKET*/
+.main-img {
+    position: fixed;
+    left: 93%;
+    bottom: 87.5%;
+    width: 10%;
+}
+
+.rocket-img {
+    width: 70%;
+}
+
+/*MAIN CONTENT*/
+.main-content-text,
+.space-title {
+    width: 70%;
+    padding: 15% 15% 5%;
+    color: #000;
+}
+
+.main-content-text p {
+    text-align: justify;
+    font-size: 1.5em;
+}
+
+.report__content{
+    width: 70%;
+    padding: 5%;
+    
+}
+
+.report__text{
+    margin-left: 5.5%;
+    font-size: 1.5em;
+    text-align: justify;
+    padding: 5%;
+}
+
+h4 {
+    padding: 1.5%;
+}
+
+h5 {
+    padding-top: 5%;
+    padding-bottom: 2%;
+    text-decoration: underline;
+    font-weight: 1000;
+}
+/*!ENDING*/
+.ending{
+    position: absolute;
+}
